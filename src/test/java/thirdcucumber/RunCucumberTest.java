@@ -8,6 +8,6 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty", "html:target/report"},
         glue = {"thirdcucumber/stepdefinitions"},
-        features = "src\\test\\resources\\thirdcucumber\\caculate.feature")
+        features = "src\\test\\resources\\thirdcucumber\\features\\caculate.feature")
 public class RunCucumberTest {
 }

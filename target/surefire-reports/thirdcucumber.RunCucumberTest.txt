@@ -1,4 +1,120 @@
 -------------------------------------------------------------------------------
 Test set: thirdcucumber.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 64.379 sec
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 58.988 sec <<< FAILURE!
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 17.701 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANM-NHANDT4', ip: '192.168.122.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, databaseEnabled: false, desired: {automationName: UIAutomator2, browserName: Chrome, deviceName: R58M42Z22SX, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A505F, deviceName: R58M42Z22SX, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M42Z22SX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2135, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 43024d3b-6fb7-47b5-aa04-8dc640eb6eac
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at thirdcucumber.common.DriverManager.createInstance(DriverManager.java:95)
+	at thirdcucumber.common.DriverManager.getDriver(DriverManager.java:103)
+	at thirdcucumber.stepdefinitions.Hooks.initTest(Hooks.java:16)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 17.703 sec  <<< ERROR!
+java.lang.NullPointerException
+	at thirdcucumber.stepdefinitions.Hooks.finishTC(Hooks.java:24)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 12.994 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANM-NHANDT4', ip: '192.168.122.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, databaseEnabled: false, desired: {automationName: UIAutomator2, browserName: Chrome, deviceName: R58M42Z22SX, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A505F, deviceName: R58M42Z22SX, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M42Z22SX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2135, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6aa9a002-1d13-42b8-903e-cf49b56451d6
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at thirdcucumber.common.DriverManager.createInstance(DriverManager.java:95)
+	at thirdcucumber.common.DriverManager.getDriver(DriverManager.java:103)
+	at thirdcucumber.stepdefinitions.Hooks.initTest(Hooks.java:16)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 12.995 sec  <<< ERROR!
+java.lang.NullPointerException
+	at thirdcucumber.stepdefinitions.Hooks.finishTC(Hooks.java:24)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 13.593 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANM-NHANDT4', ip: '192.168.122.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, databaseEnabled: false, desired: {automationName: UIAutomator2, browserName: Chrome, deviceName: R58M42Z22SX, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A505F, deviceName: R58M42Z22SX, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M42Z22SX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2135, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 956c36bb-7129-4ad4-8a7c-29824a395996
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at thirdcucumber.common.DriverManager.createInstance(DriverManager.java:95)
+	at thirdcucumber.common.DriverManager.getDriver(DriverManager.java:103)
+	at thirdcucumber.stepdefinitions.Hooks.initTest(Hooks.java:16)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 13.593 sec  <<< ERROR!
+java.lang.NullPointerException
+	at thirdcucumber.stepdefinitions.Hooks.finishTC(Hooks.java:24)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 13.504 sec  <<< ERROR!
+org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to remote server. Original error: Error: read ECONNRESET
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANM-NHANDT4', ip: '192.168.122.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.google.android.apps.chr..., appPackage: com.android.chrome, automationName: UIAutomator2, browserName: Chrome, databaseEnabled: false, desired: {automationName: UIAutomator2, browserName: Chrome, deviceName: R58M42Z22SX, platformName: android, platformVersion: 10}, deviceApiLevel: 29, deviceManufacturer: samsung, deviceModel: SM-A505F, deviceName: R58M42Z22SX, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: R58M42Z22SX, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 83, takesScreenshot: true, viewportRect: {height: 2135, left: 0, top: 83, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f6ee5fd1-3926-4d89-b057-fcfb83301cca
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at thirdcucumber.common.DriverManager.createInstance(DriverManager.java:95)
+	at thirdcucumber.common.DriverManager.getDriver(DriverManager.java:103)
+	at thirdcucumber.stepdefinitions.Hooks.initTest(Hooks.java:16)
+
+The functionality of 4 operators in Scientific operates correctly(Check 4 operators in Scientific)  Time elapsed: 13.504 sec  <<< ERROR!
+java.lang.NullPointerException
+	at thirdcucumber.stepdefinitions.Hooks.finishTC(Hooks.java:24)
+

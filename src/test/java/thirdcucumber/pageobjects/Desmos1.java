@@ -40,7 +40,6 @@ public class Desmos1 {
     public void enterInput(String operand1, String operand2, String operator){
         this.enterNumber(operand1);
         WebElement operatorEle = getElement(operatorElements, operator);
-//        System.out.println(operatorEle);
         if (operatorEle !=null){
             waitFunc.until(ExpectedConditions.elementToBeClickable(operatorEle)).click();
         }
@@ -51,7 +50,6 @@ public class Desmos1 {
         String result = "";
         for(WebElement ele: resultElements){
             result +=waitFunc.until(ExpectedConditions.visibilityOf(ele)).getText().trim();
-//            System.out.println(result);
         }
         return result;
     }
@@ -68,21 +66,6 @@ public class Desmos1 {
             if (soDuElement != null)
                 waitFunc.until(ExpectedConditions.elementToBeClickable(soDuElement)).click();
         }
-//        if(String.valueOf(number).contains(".")){
-//
-//        }
-//        int sodu =0;
-//        while (number>=10){
-//            number = number/10;
-//            sodu = number%10;
-//            String convertSodu = String.valueOf(sodu);
-//            WebElement soDuElement= getElement(digitElements, convertSodu);
-//            if (soDuElement != null)
-//                waitFunc.until(ExpectedConditions.elementToBeClickable(soDuElement)).click();
-//        }
-//        WebElement numberElement= getElement(digitElements, String.valueOf(number));
-//        if (numberElement != null)
-//            waitFunc.until(ExpectedConditions.elementToBeClickable(numberElement)).click();
     }
 
     public WebElement getElement(List<WebElement> lstElements, String compare){
